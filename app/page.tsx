@@ -44,7 +44,7 @@ function AppContent() {
           </div>
 
           <footer className="text-center text-xs text-muted-foreground pt-4 pb-8 space-y-1">
-            <p>Prediction-Informed Router &mdash; Chainlink CRE + Uniswap v4 + Polymarket</p>
+            <p>Piro &mdash; Chainlink CRE + Uniswap v4 + Polymarket</p>
             <p>Arbitrum Sepolia</p>
           </footer>
         </div>

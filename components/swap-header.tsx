@@ -1,7 +1,7 @@
 'use client';
 
 import { Button } from '@/components/ui/button';
-import { Zap } from 'lucide-react';
+import Image from 'next/image';
 import { useWeb3 } from '@/lib/web3-context';
 
 export function SwapHeader() {
@@ -12,11 +12,11 @@ export function SwapHeader() {
       <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-accent">
-              <Zap className="h-6 w-6 text-accent-foreground" />
+            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-accent/10 border border-accent/30">
+              <Image src="/logo.png" alt="Piro logo" width={35} height={35} priority />
             </div>
             <div>
-              <span className="text-xl font-bold text-foreground">Prediction-Informed Router</span>
+              <span className="text-xl font-bold text-foreground">Piro</span>
               <p className="text-xs text-muted-foreground">Uniswap v4 hook with live prediction market risk signals</p>
             </div>
           </div>
