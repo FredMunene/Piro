@@ -8,7 +8,7 @@ const _geist = Geist({ subsets: ['latin'] })
 const _geistMono = Geist_Mono({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Prediction-Informed Router',
+  title: 'Piro',
   description: 'Uniswap v4 hook with live prediction market risk signals — Chainlink CRE + Polymarket',
 }
 
