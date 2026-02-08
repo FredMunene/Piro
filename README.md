@@ -52,4 +52,5 @@ npm run start
 - `components/` UI and feature components
 - `lib/` Web3 context, constants, utilities
 - `public/` logo and assets
+- [CRE Workflow](https://github.com/FredMunene/uniswap-hook-incubator-8/tree/main/hack-app/cre-workflow)
 
